@@ -21,12 +21,21 @@ lst = [20, 24, 23, 22, 27, 30, 29, 'Bob']
 # print(sorted(lst)) # сортировка списка по возрастанию
 # print(sorted(lst, reverse=True))
 
-x = [20, 24, 23, 22, 27, 30, 29]
-y = [30, 29, 27, 24, 23, 22, 20]
-# if x > y:
-#     print('x больше y')
-# elif x < y:
-#     print('x меньше y')
-# print(x == y)
-midarfmetic = sum(x) + sum(y) / len(x) + len(y)
-print(f'Среднее арифметическое: {midarfmetic}') # False
+# x = [20, 24, 23, 22, 27, 30, 29]
+# y = [30, 29, 27, 24, 23, 22, 20]
+# # if x > y:
+# #     print('x больше y')
+# # elif x < y:
+# #     print('x меньше y')
+# # print(x == y)
+# midarfmetic = sum(x) + sum(y) / len(x) + len(y)
+# print(f'Среднее арифметическое: {midarfmetic}') # False
+
+#----------------------------------------------------------- https://stepik.org/lesson/295802/step/16?unit=277506
+# x =list(map(int, input().split()))  # если хотим считать список и сохранить в переменную
+# print(x)
+# print(max(x))
+
+x =list(map(str, input().split()))  # если хотим считать список и сохранить в переменную
+print(x)
+print(max(x))
